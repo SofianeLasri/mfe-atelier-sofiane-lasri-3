@@ -54,6 +54,7 @@ module.exports = {
       filename: 'remoteEntry.js', // Nom du fichier d'entrée exposé (conventionnel)
       exposes: {
         './Header': './src/Header', // Expose le composant Header (chemin relatif)
+        './Content': './src/Content',
       },
       shared: { // Configuration des dépendances partagées
         react: { 
